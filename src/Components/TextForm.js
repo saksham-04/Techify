@@ -31,7 +31,7 @@ export default function TextForm(props) {
   return (
     <div className='textform'>
       
-      <img src={nelson} height={300} width={1345} alt="logo" />
+      <img src={nelson} height={275} width={1220} alt="logo" />
             <h1 align='center' style={{ fontFamily: 'Algerian', color: '#d30808' }}>Welcome to Techify- Simply Learn</h1>
             <div className='container'>
               <HeaderSlide />

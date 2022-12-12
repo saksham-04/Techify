@@ -21,23 +21,13 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <a className="nav-link" href="/Career"><b>Career options</b></a>
               </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <b>Courses available</b>
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/Course">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
               <li className="nav-item">
+                <a className="nav-link" href="/Course"><b>Courses Available</b></a>
+              </li>
+               <li className="nav-item">
                 <a className="nav-link" href="/textform"><b>News updates</b></a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/Career"><b>Google it</b></a>
-              </li>
+              
 
             </ul>
             <form className="d-flex" role="search">
