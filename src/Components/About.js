@@ -3,9 +3,9 @@ import React from 'react'
 export default function About() {
     return (
         <div className='container'>
-            <h1 align='center' style={{ color: '#02289f' }}><b>We belive in</b></h1>
-            <h5>
-                <i>
+            <h1 align='center' style={{ fontFamily:'Algerian',color: '#d30808' }}>We belive in</h1>
+            <h4 style={{ fontFamily:'Lucida Calligraphy', color:'#001a6a' }}>
+                <i><b>
                     <p>Learning is the source of human progress. </p>
                     <p>It has the power to transform our world
                         from illness to health,
@@ -27,8 +27,9 @@ export default function About() {
                     </p>
                     <p> So that anyone, anywhere has the power to
                         transform their life through learning.</p>
-                </i>
-            </h5>
+                
+                        </b></i>
+            </h4>
         </div>
     )
 }

@@ -12,7 +12,7 @@ export default function headerslide() {
       <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={pic1} height={500} width={1024} className="d-block" alt="..." />
+            <img src={pic1} height={700} width={1024} className="d-block" alt="..." />
           </div>
           <div className="carousel-item">
             <img src={salaries} height={500} width={1024} className="d-block" alt="..." />

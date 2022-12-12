@@ -1,28 +1,51 @@
 
 import './App.css';
-import HeaderSlide from './Components/HeaderSlide';
+ import HeaderSlide from './Components/HeaderSlide'
 import Navbar from './Components/Navbar';
-import nelson from './nelson.jpg'
+import TextForm from './Components/TextForm';
+ import About from './Components/About';
+ import nelson from './nelson.jpg';
 import {
-  browserRouter as Router,
-  route,
-  routes,
-  browserRouter
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  BrowserRouter
 } from "react-router-dom";
-import About from './Components/About';
+
+import Footer from './Components/Footer';
+import Career from './Components/Career';
+import Course from './Components/Course';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar title='Techify' />
-      <img src={nelson} height={200} width={1300} alt="logo" />
-      <div className='container'>
-        <HeaderSlide />
-      </div>
-      <div className='container my-3'>
-        <About />
-              </div>
-    </div>
+    <>
+      <BrowserRouter>
+        <div className='App-header'>
+          <Navbar title="Techify" />
+
+
+
+          <div className="App">
+            <Routes>
+
+              <Route path="Career" element={<Career />} />
+              <Route path="Course" element={<Course />} />
+              <Route path="/" element={<TextForm />} />
+             
+            </Routes>
+            
+
+                       
+
+            
+          </div>
+          <Footer />
+          {/* <Footer2/> */}
+
+
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 

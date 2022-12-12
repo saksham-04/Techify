@@ -13,8 +13,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App{
+  background-image: url("D:\programing\react\techify\src\wallpaper2.jpg") ;
+  
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +25,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* .App{
+  background-image: url("D:\programing\react\techify\src\tech2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat ;
+  width: 200px;
+  height: 100vh;
+} */
 
 .App-link {
   color: #61dafb;
