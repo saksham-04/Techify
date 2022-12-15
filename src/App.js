@@ -40,7 +40,7 @@ function App() {
             
           </div>
           <Footer />
-          {/* <Footer2/> */}
+          
 
 
         </div>

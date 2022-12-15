@@ -1,1 +1,3 @@
-<h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>
+<li className="nav-item">
+                <a className="nav-link" href="/textform"><b>News updates</b></a>
+              </li>

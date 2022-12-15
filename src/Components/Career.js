@@ -30,11 +30,11 @@ export default function Career() {
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Software Developer</h2>
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Software developers conceive of, design, and build computer programs. Some develop new applications for mobile or
                 desktop use, while others build underlying operating systems.
@@ -80,7 +80,7 @@ export default function Career() {
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <img src={ds} height={400} width={400} />
+              <img src={ds} height={350} width={400} />
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>In simple terms, a data scientist's job
                 is to analyze data for actionable insights. Specific tasks include: Identifying the data-analytics
                 problems that offer the greatest opportunities to
@@ -152,7 +152,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> Mobile app developer </h2>
             </button>
           </h2>
-          <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img src={mobile} height={400} width={400} />
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>What does a mobile app developer do?
@@ -203,7 +203,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>IT PROJECT MANAGER  </h2>
             </button>
           </h2>
-          <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img src={pm} width={400} height={400} />
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>What do IT project managers do?
@@ -250,7 +250,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> Information security analyst </h2>
             </button>
           </h2>
-          <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img src={cyber} height={400} width={400} />
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Information security analysts typically do the following: Monitor their organization's networks for security breaches and investigate when one occurs. Use and maintain software, such as firewalls and data encryption programs, to protect sensitive information. Check for vulnerabilities in computer and network systems
@@ -286,7 +286,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> System Architect   </h2>
             </button>
           </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div id="collapseSeven" class="accordion-collapse collapse " aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img src={system} width={400} height={400} />
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>The roles of a system architect
@@ -326,7 +326,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> AI ENGINEER </h2>
             </button>
           </h2>
-          <div id="collapseEight" class="accordion-collapse collapse show" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+          <div id="collapseEight" class="accordion-collapse collapse " aria-labelledby="headingEight" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <img src={ai} width={400} height={400} />
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Artificial Intelligence (AI) is a computer system’s ability to mimic human behavior. Machines demonstrate this sort of intelligence, which can be compared to a natural intelligence that humans and animals demonstrate.
@@ -346,7 +346,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> COMPUTER HARDWARE ENGINEER </h2>
             </button>
           </h2>
-          <div id="collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+          <div id="collapseNine" class="accordion-collapse collapse " aria-labelledby="headingNine" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Computer hardware engineers research, design, develop, and test computer systems and components such as circuit boards. Computer hardware engineers research, design, develop, and test computer systems and components such as processors, circuit boards,
                 memory devices, networks, and routers.Most computer hardware engineers need a bachelor's degree from an accredited computer engineering program. Most entry-level computer hardware engineers have a bachelor's degree in computer engineering, although a degree in electrical engineering or computer science also is generally acceptable.
@@ -396,7 +396,7 @@ export default function Career() {
               <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>  Video game developer</h2>
             </button>
           </h2>
-          <div id="collapseTen" class="accordion-collapse collapse show" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+          <div id="collapseTen" class="accordion-collapse collapse " aria-labelledby="headingTen" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>What does a video game developer do? Video game developers, also known as games developers or video game programmers, write code for games for a variety of formats, such as PCs, consoles, web browsers and mobile phones.
 
@@ -444,14 +444,7 @@ export default function Career() {
             </div>
           </div>
         </div>
-
-
-      </div>
-
-
-
-
-
+       </div>
     </div>
   )
 }
