@@ -29,14 +29,14 @@ import t4 from './course/t4.jpg';
 export default function Course() {
   return (
     <div className='container'>
-      <h1 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Disclaimer</h1>
-      <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>These all study material are collected from free resoures.
+      <h1 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Disclaimer</h1>
+      <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>These all study material are collected from free resoures.
       we'll be updating soon the study material as per the requirements received. Till yet this is the model structure of the Website</p>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Python Tutorial for Beginners | Mr. Satish Gupta</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Python Tutorial for Beginners | Mr. Satish Gupta</h4>
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -56,7 +56,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>React Js Tutorials </h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>React Js Tutorials </h4>
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -75,7 +75,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Core Java</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Core Java</h4>
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -93,7 +93,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>SQL Server</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>SQL Server</h4>
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -113,7 +113,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Tailwind CSS</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Tailwind CSS</h4>
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
@@ -131,7 +131,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>JavaScript</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>JavaScript</h4>
             </button>
           </h2>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -149,7 +149,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingSeven">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>BootStrap and Github</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>BootStrap and Github</h4>
             </button>
           </h2>
           <div id="collapseSeven" class="accordion-collapse collapse " aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
@@ -169,7 +169,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingEight">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>HTML</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>HTML</h4>
             </button>
           </h2>
           <div id="collapseEight" class="accordion-collapse collapse " aria-labelledby="headingEight" data-bs-parent="#accordionExample">
@@ -189,7 +189,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingNine">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>PHP </h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>PHP </h4>
             </button>
           </h2>
           <div id="collapseNine" class="accordion-collapse collapse " aria-labelledby="headingNine" data-bs-parent="#accordionExample">
@@ -209,7 +209,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTen">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Machine Learning</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Machine Learning</h4>
             </button>
           </h2>
           <div id="collapseTen" class="accordion-collapse collapse " aria-labelledby="headingTen" data-bs-parent="#accordionExample">
@@ -229,7 +229,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingEleven">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>C++</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>C++</h4>
             </button>
           </h2>
           <div id="collapseEleven" class="accordion-collapse collapse " aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
@@ -249,7 +249,7 @@ export default function Course() {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwelve">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Telnet</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Telnet</h4>
             </button>
           </h2>
           <div id="collapseTwelve" class="accordion-collapse collapse " aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">

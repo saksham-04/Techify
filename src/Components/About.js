@@ -3,8 +3,8 @@ import React from 'react'
 export default function About() {
     return (
         <div className='container'>
-            <h1 align='center' style={{ fontFamily:'Algerian',color: '#d30808' }}>We belive in</h1>
-            <h4 style={{ fontFamily:'Lucida Calligraphy', color:'#001a6a' }}>
+            <h1 align='center' style={{ fontFamily:'Copperplate Gothic bold',color: '#d30808' }}>We belive in</h1>
+            <h4 style={{ fontFamily:'Copperplate Gothic Light', color:'#001a6a' }}>
                 <i><b>
                     <p>Learning is the source of human progress. </p>
                     <p>It has the power to transform our world

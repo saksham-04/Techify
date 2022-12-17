@@ -32,7 +32,7 @@ export default function TextForm(props) {
     <div className='textform'>
       
       <img src={nelson} height={275} width={1220} alt="logo" />
-            <h1 align='center' style={{ fontFamily: 'Algerian', color: '#d30808' }}>Welcome to Techify- Simply Learn</h1>
+            <h1 align='center' style={{ fontFamily: 'Copperplate Gothic Bold', color: 'black' }}>Welcome to Techify- Simply Learn</h1>
             <div className='container'>
               <HeaderSlide />
             </div>
@@ -42,7 +42,7 @@ export default function TextForm(props) {
             </div>
 
 
-            <h1 style={{ color: '#d30808', fontFamily: 'Algerian' }}>Complaints And Queries</h1>
+            <h1 style={{ color: 'black', fontFamily: 'Copperplate Gothic Bold' }}>Suggestions And Queries</h1>
       <div className="container" style={{color: props.mode==='dark' ? 'white' : 'black'}}>
         <h3>{props.heading} </h3>
         <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" cols="30" rows="10"></textarea>

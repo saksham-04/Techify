@@ -11,8 +11,8 @@ import system from './system.jpg';
 import ai from './ai.jpg';
 export default function Career() {
   return (
-    <div className='container my-3'>
-      <h1 align='left' style={{ fontFamily: 'Algerian', color: '#d30808' }}>Top 10 famous jobs for Computer Science majors</h1>
+    <div classNameName='container my-3'>
+      <h1 align='left' style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Top 10 famous jobs for Computer Science majors</h1>
       <ul><h3 style={{ fontfamily: 'Calibri Light (Headings)', color: '#001a6a' }}>
         <li>Software Developer.....</li>
         <li>Data scientist.....</li>
@@ -27,41 +27,41 @@ export default function Career() {
 
       </h3></ul>
 
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Software Developer</h2>
+      <div className="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingOne">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Software Developer</h2>
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Software developers conceive of, design, and build computer programs. Some develop new applications for mobile or
+          <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Software developers conceive of, design, and build computer programs. Some develop new applications for mobile or
                 desktop use, while others build underlying operating systems.
                 Either way, software developers identify user needs, build programs,
                 test out new software, and make improvements.</p>
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}> What is the work of software developer?</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> What is the work of software developer?</h4>
               <img src={sd} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>A Software Developer designs and builds computer programs that power mobile devices, desktop computers, and even cars. They not only identify user needs but also create
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>A Software Developer designs and builds computer programs that power mobile devices, desktop computers, and even cars. They not only identify user needs but also create
                 new applications for any given market while making improvements based on feedback from user</p>
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}> What is the qualification of software developer?</h4>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> What is the qualification of software developer?</h4>
               <img src={sd1} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Bachelor's degree in computer
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Bachelor's degree in computer
                 science or related degree. Knowledge of the software development life-cycle.
                 The desire to work in a fast-paced environment. Ability to develop unit testi
                 of code components or complete application.Tech/Diploma without any backlogs with at least 65% marks from any university or institution. If you are interested to go for postgraduation then you have to write the entrance exam like GATE.
                 You need to score at least 70% in M. Tech to be eligible to apply for your dream job.
               </p>
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>What are the types of developers? </h4>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}><ul>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>What are the types of developers? </h4>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}><ul>
                 <li>Software developer. A software developer is someone who designs software and applications that helps users execute specific functions and tasks</li>
                 <li>	Web developer</li>
                 <li>	Back-end developer</li>
                 <li>	Full-stack developer</li>
                 <li>	Game developer</li>
               </ul></p>
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Highest Paying Programming Jobs</h4>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}><ul>
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Highest Paying Programming Jobs</h4>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}><ul>
                 <li>Full-Stack Developer. Source: QAwithExperts</li>
                 <li>Cloud Architect. Source: TechTarget</li>
                 <li>Machine Learning Engineer</li>
@@ -72,16 +72,16 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Data Scientist</h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Data Scientist</h2>
             </button>
           </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+          <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
               <img src={ds} height={350} width={400} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>In simple terms, a data scientist's job
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>In simple terms, a data scientist's job
                 is to analyze data for actionable insights. Specific tasks include: Identifying the data-analytics
                 problems that offer the greatest opportunities to
                 the organizaion. Determining the correct data sets and variables.
@@ -90,16 +90,16 @@ export default function Career() {
                 data science job, though it's not always required
                 Sharpen relevant skills.Get an entry-level data analytics job.•	Prepare for data science interviews</p>
               <img src={ds2} height={400} width={400} />
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}> How do I start a career in data science? </h4>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>To get started in any data science role, earning a degree or certificate can be a great entry point. Bachelor's degree: For many, a bachelor's degree in data science, business, economics, statistics, math, information technology, or a related field can
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> How do I start a career in data science? </h4>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>To get started in any data science role, earning a degree or certificate can be a great entry point. Bachelor's degree: For many, a bachelor's degree in data science, business, economics, statistics, math, information technology, or a related field can
                 help you gain leverage as an application.Today, you'll find data scientists working at a range of organizations, including tech startups, government agencies, large companies and research institutions.</p>
             </div>
-            <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>What is the earning of data scientist?</h4>
-            <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Data Scientist salary in India ranges between ₹ 4.2 Lakhs to ₹ 25.3 Lakhs with an average annual salary of ₹ 10.3 Lakhs. Salary estimates are based on 21.1k salaries received from Data Scientists.
+            <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>What is the earning of data scientist?</h4>
+            <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Data Scientist salary in India ranges between ₹ 4.2 Lakhs to ₹ 25.3 Lakhs with an average annual salary of ₹ 10.3 Lakhs. Salary estimates are based on 21.1k salaries received from Data Scientists.
 
             </p>
-            <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>What companies are hiring data scientists?</h4>
-            <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}><ul>
+            <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>What companies are hiring data scientists?</h4>
+            <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}><ul>
               <li>IBM. 35,986 data employees</li>
               <li>Citigroup. 30,548 data employees</li>
               <li>	Deloitte. 29,436 data employees</li>
@@ -110,22 +110,22 @@ export default function Career() {
             </ul></p>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>Ux designer</h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Ux designer</h2>
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>What is a UX designer?</h4>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>
+          <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>What is a UX designer?</h4>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>
                 The UX designer role is to make a product or service usable, enjoyable, and accessible.
                 While many companies design user experiences, the term is most often associated with digital design for websites and apps.
               </p>
               <img src={ux} height={400} width={400} />
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>What qualifications do I need to be a UX designer?</h4>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>UX designer qualifications include experience with UX design,
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>What qualifications do I need to be a UX designer?</h4>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>UX designer qualifications include experience with UX design,
                 UX software, prototyping, user research and testing, collaboration
                 and communication skills, and a demonstrated understanding of front-end technologies,
                 user-centered design, and mobile-first and responsive design.
@@ -136,8 +136,8 @@ export default function Career() {
                 page, and CSS helps add styling such as font size, color, opacity, and more.
               </p>
 
-              <h4 style={{ fontFamily: 'Algerian', color: '#d30808' }}>UX designer job market and salaries</h4>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}> As we’ve said, good UX has become synonymous with good business, because happy users are good for business!
+              <h4 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>UX designer job market and salaries</h4>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}> As we’ve said, good UX has become synonymous with good business, because happy users are good for business!
                 The demand for UX designers has radically increased—and, as the tech industry continues to evolve, UX designers are more crucial than ever. This is especially true for UX designers who are on the cutting edge of their field, and participating in the trends that keep UX design so relevant and necessary.
                 This demand is also reflected in the overall increase in average UX designer salaries.
                 In other words, the outlook for a career in UX design is excellent. That said, it can be a very competitive job market! If you want to really stand out in the market, we recommend cultivating a relationship with a UX design mentor and finessing a truly job-winning UX design portfolio.
@@ -146,16 +146,16 @@ export default function Career() {
           </div>
         </div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> Mobile app developer </h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFour">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> Mobile app developer </h2>
             </button>
           </h2>
-          <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+          <div id="collapseFour" className="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
               <img src={mobile} height={400} width={400} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>What does a mobile app developer do?
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>What does a mobile app developer do?
                 A mobile app developer uses programming languages and development skills to create, test, and develop applications on mobile devices. They work in popular operating system environments like iOS and Android and often take into account UI and UX principles when creating applications
                 Which mobile app developer is best?
                 List of the Top Mobile App Developers
@@ -188,7 +188,7 @@ export default function Career() {
                 7.	Create your app developer resume.
                 8.	Apply for app developer positions.
               </p>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>JavaScript is the best programming language for mobile apps built for Android and iOS, and even PWAs (Progressive Web Applications).
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>JavaScript is the best programming language for mobile apps built for Android and iOS, and even PWAs (Progressive Web Applications).
                 Which language is needed for app development?
                 Java. Firstly Java was the official language for Android App Development (but now it was replaced by Kotlin) and consequently, it is the most used language as well. Many of the apps in the Play Store are built with Java, and it is also the most supported language by Google.02-Aug-2022
                 What should I study for app development?
@@ -197,16 +197,16 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>IT PROJECT MANAGER  </h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFive">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> IT Project Manager    </h2>
             </button>
           </h2>
-          <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+          <div id="collapseFive" className="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
               <img src={pm} width={400} height={400} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>What do IT project managers do?
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>What do IT project managers do?
 
                 An IT project manager is a professional charged with overseeing the process of planning, executing and delegating responsibilities around an organization's information technology (IT) pursuits and goals. IT project managers may work in a variety of industries, as nearly all organizations rely on computing technologies.
                 What skills do IT project managers need?
@@ -224,7 +224,7 @@ export default function Career() {
                 3.	Become certified. ...
                 4.	Apply for jobs.
               </p>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Essential Project Management Skills
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Essential Project Management Skills
                 •	Essential Communication Skills. One of the most important skills for project management skills is communication. ...
                 •	Essential Time Management Skills. ...
                 •	Project Management Organizational Awareness. ...
@@ -232,7 +232,7 @@ export default function Career() {
                 •	Essential Leadership Skills.
                 What are the 5 phases of IT projects?
                 Developed by the Project Management Institute (PMI), the five phases of project management include conception and initiation, project planning, project execution, performance/monitoring, and project close.</p>
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>
                 What are the 5 C's in project management?
                 The 5 Cs of managing projects, Complexity, Criticality, Compliance, Culture and Compassion, tell you how much and how often to do the things we do. There are five, they fit on your hand, and they go in order. The first three, complexity, criticality and compliance, are about the work, and that's where we begin.
                 How long does IT take to become a IT manager?
@@ -244,16 +244,16 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSix">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> Information security analyst </h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingSix">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> Information security analyst </h2>
             </button>
           </h2>
-          <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+          <div id="collapseSix" className="accordion-collapse collapse " aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
               <img src={cyber} height={400} width={400} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Information security analysts typically do the following: Monitor their organization's networks for security breaches and investigate when one occurs. Use and maintain software, such as firewalls and data encryption programs, to protect sensitive information. Check for vulnerabilities in computer and network systems
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Information security analysts typically do the following: Monitor their organization's networks for security breaches and investigate when one occurs. Use and maintain software, such as firewalls and data encryption programs, to protect sensitive information. Check for vulnerabilities in computer and network systems
                 What skills do you need to be an information security analyst?
 
                 •	Scripting. Scripting is a type of coding in which you make a program do something. ...
@@ -280,16 +280,16 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingSeven">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> System Architect   </h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingSeven">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> System Architect   </h2>
             </button>
           </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse " aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+          <div id="collapseSeven" className="accordion-collapse collapse " aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
               <img src={system} width={400} height={400} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>The roles of a system architect
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>The roles of a system architect
                 A system architect role can be split into five areas:
                 1.	Understand the desired business or departmental strategy and outcome.
                 2.	Break down those outcomes into defined parts including products, processes, and functions.
@@ -320,16 +320,16 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEight">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> AI ENGINEER </h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingEight">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>Artificial Intelligence Engineer </h2>
             </button>
           </h2>
-          <div id="collapseEight" class="accordion-collapse collapse " aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+          <div id="collapseEight" className="accordion-collapse collapse " aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
               <img src={ai} width={400} height={400} />
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Artificial Intelligence (AI) is a computer system’s ability to mimic human behavior. Machines demonstrate this sort of intelligence, which can be compared to a natural intelligence that humans and animals demonstrate.
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Artificial Intelligence (AI) is a computer system’s ability to mimic human behavior. Machines demonstrate this sort of intelligence, which can be compared to a natural intelligence that humans and animals demonstrate.
                 In artificial intelligence (AI), machines learn from past data and actions, which are positive or negative. With this new information, the machine is able to make corrections to itself so that the problems don't resurface, as well as make any necessary adjustments to handle new inputs. Finally, the machine is able to perform human-like tasks.
                 Artificial intelligence engineering is based on the principles of systems engineering, software engineering, computer science, and human-centered design to create artificial intelligence systems that align with humans' needs for achieving mission objectives.An AI engineer builds AI models using machine learning algorithms and deep learning neural networks to draw business insights, which can be used to make business decisions that affect the entire organization. These engineers also create weak or strong AIs, depending on what goals they want to achieve.
                 AI engineers have a sound understanding of programming, software engineering, and data science. They use different tools and techniques so they can process data, as well as develop and maintain AI systems.
@@ -340,15 +340,15 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingNine">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}> COMPUTER HARDWARE ENGINEER </h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingNine">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}> Computer Hardware Engineer</h2>
             </button>
           </h2>
-          <div id="collapseNine" class="accordion-collapse collapse " aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>Computer hardware engineers research, design, develop, and test computer systems and components such as circuit boards. Computer hardware engineers research, design, develop, and test computer systems and components such as processors, circuit boards,
+          <div id="collapseNine" className="accordion-collapse collapse " aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>Computer hardware engineers research, design, develop, and test computer systems and components such as circuit boards. Computer hardware engineers research, design, develop, and test computer systems and components such as processors, circuit boards,
                 memory devices, networks, and routers.Most computer hardware engineers need a bachelor's degree from an accredited computer engineering program. Most entry-level computer hardware engineers have a bachelor's degree in computer engineering, although a degree in electrical engineering or computer science also is generally acceptable.
                 Analytical skills. Computer hardware engineers use computer programming tools to analyze the digital circuits in hardware to determine the best design.
                 Critical-thinking skills. These engineers use logic and reasoning to clarify goals, examine assumptions, and identify the strengths and weaknesses of alternative solutions.
@@ -390,15 +390,15 @@ export default function Career() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTen">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-              <h2 style={{ fontFamily: 'Algerian', color: '#d30808' }}>  Video game developer</h2>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTen">
+            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+              <h2 style={{ fontFamily: 'Copperplate Gothic Bold', color: '#02289f' }}>  Video game developer</h2>
             </button>
           </h2>
-          <div id="collapseTen" class="accordion-collapse collapse " aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p style={{ fontFamily: 'Lucida Calligraphy', color: '#001a6a' }}>What does a video game developer do? Video game developers, also known as games developers or video game programmers, write code for games for a variety of formats, such as PCs, consoles, web browsers and mobile phones.
+          <div id="collapseTen" className="accordion-collapse collapse " aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+              <p style={{ fontFamily: 'Copperplate Gothic Light', color: '#001a6a' }}>What does a video game developer do? Video game developers, also known as games developers or video game programmers, write code for games for a variety of formats, such as PCs, consoles, web browsers and mobile phones.
 
                 What does it take to be a video game developer?
                 Along with being proficient in programming languages, game developers must know about various game trends. It will help to be creative and have storytelling skills. They must also have solid analytical abilities, good interpersonal skills and the ability to work in a team environment.

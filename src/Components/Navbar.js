@@ -24,9 +24,9 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <a className="nav-link" href="/Course"><b>Courses Available</b></a>
               </li>
-               {/* <li className="nav-item">
-                <a className="nav-link" href="/textform"><b>News updates</b></a>
-              </li> */}
+               <li className="nav-item">
+                <a className="nav-link" href="/News"><b>News updates</b></a>
+              </li>
               
 
             </ul>

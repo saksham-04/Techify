@@ -1,10 +1,9 @@
 
 import './App.css';
- import HeaderSlide from './Components/HeaderSlide'
+ 
 import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
- import About from './Components/About';
- import nelson from './nelson.jpg';
+ 
 import {
   BrowserRouter as Router,
   Route,
@@ -15,6 +14,7 @@ import {
 import Footer from './Components/Footer';
 import Career from './Components/Career';
 import Course from './Components/Course';
+import News from './Components/News';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
               <Route path="Career" element={<Career />} />
               <Route path="Course" element={<Course />} />
               <Route path="/" element={<TextForm />} />
+              <Route path="/News" element={<News />} />
              
             </Routes>
             
